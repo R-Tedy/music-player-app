@@ -18,12 +18,13 @@
         <h2 id="song-name">Falling Softly</h2>
         <p id="artist">Papa Stedy</p>
       </div>
-      <div class="status-bar"></div>
+      <input type="range" id="status-bar">
+      <audio src="./media/Ayra-Starr-Commas.mp3" id="song"></audio>
       <div class="control-btns">
         <button id="rewind">
           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M860-240 500-480l360-240v480Zm-400 0L100-480l360-240v480Zm-80-240Zm400 0Zm-400 90v-180l-136 90 136 90Zm400 0v-180l-136 90 136 90Z"/></svg>
         </button>
-        <button id="play">
+        <button class="play-now" id="play">
           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
         </button>
         <button id="forward">
@@ -32,5 +33,6 @@
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
